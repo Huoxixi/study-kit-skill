@@ -1,0 +1,72 @@
+{
+  "course": {
+    "id": "price-basics",
+    "title": "单价与数量"
+  },
+  "sources": [
+    {
+      "id": "S001",
+      "title": "课堂笔记",
+      "locator": "materials/课堂笔记.pdf"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "O001",
+      "title": "用单价与数量求总价",
+      "origin": "derived",
+      "sourceRefs": [
+        {
+          "sourceId": "S001",
+          "location": "第1页"
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "K001",
+      "title": "总价怎么算",
+      "objectiveIds": [
+        "O001"
+      ],
+      "concept": "单价固定时，总价等于单价乘以数量。",
+      "example": "一支笔3元，买2支，没有折扣，总共6元。",
+      "pitfall": "有满减或数量折扣时，不能直接按原单价计算实付金额。",
+      "definitionStatus": "source-based",
+      "sourceRefs": [
+        {
+          "sourceId": "S001",
+          "location": "第1页公式"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q001",
+      "type": "single",
+      "stem": "一本本子5元，买3本，没有折扣，总共多少元？",
+      "cardIds": [
+        "K001"
+      ],
+      "provenance": "authored",
+      "grading": "exact",
+      "reviewStatus": "verified",
+      "options": [
+        {
+          "id": "A",
+          "text": "8元"
+        },
+        {
+          "id": "B",
+          "text": "15元"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "explanation": "单价5元乘3本，得到15元；8是把单价和数量相加。"
+    }
+  ]
+}

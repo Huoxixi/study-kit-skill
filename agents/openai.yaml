@@ -1,0 +1,4 @@
+interface:
+  display_name: "复习资料工坊"
+  short_description: "把课程资料整理为有出处的知识卡片、题目解析和可交互的复习网站"
+  default_prompt: "请使用 $study-kit，根据当前课程资料制作可核对、可练习、可持续补充的复习资料。"
