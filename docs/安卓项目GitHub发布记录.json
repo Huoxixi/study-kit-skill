@@ -1,0 +1,61 @@
+{
+  "repository": "https://github.com/Huoxixi/study-kit-skill",
+  "release": "https://github.com/Huoxixi/study-kit-skill/releases/tag/android-v1.1.0",
+  "tag": "android-v1.1.0",
+  "draft": false,
+  "verifiedAt": "2026-11-16T05:18:56.939Z",
+  "anonymous": true,
+  "assets": [
+    {
+      "name": "StudyKit-Reader-1.1.0.apk",
+      "bytes": 565868,
+      "sha256": "241dde629849192248d93790795152599f8825b04f341819cb5073e374db4e9a",
+      "url": "https://github.com/Huoxixi/study-kit-skill/releases/download/android-v1.1.0/StudyKit-Reader-1.1.0.apk"
+    },
+    {
+      "name": "AI41-Study.html",
+      "bytes": 1114088,
+      "sha256": "5544435c40961a9fd6f76fa6453807f027aa70f285d6795f1ab8a1acdddf8196",
+      "url": "https://github.com/Huoxixi/study-kit-skill/releases/download/android-v1.1.0/AI41-Study.html"
+    },
+    {
+      "name": "INSTALL.txt",
+      "bytes": 1655,
+      "sha256": "a856fe2c7be5181f70805e5b161bc44f7f22f3d58810ad67d5d67c2726996c07",
+      "url": "https://github.com/Huoxixi/study-kit-skill/releases/download/android-v1.1.0/INSTALL.txt"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "bytes": 252,
+      "sha256": "7b3ef76404667c697a60f8c4344e634dabd1ec45955916c0d35aafa948bb052c",
+      "url": "https://github.com/Huoxixi/study-kit-skill/releases/download/android-v1.1.0/SHA256SUMS.txt"
+    }
+  ],
+  "sourceCommit": "b8d6edf58db54ede6da173129a9d2a093484ba7c",
+  "sourceFiles": 70,
+  "remoteBlobHashesMatchLocal": true,
+  "sourceScope": "sourceCommit/sourceFiles describe the exact android-v1.1.0 release source; a later documentation commit records this verification",
+  "skillVersion": "1.1.0",
+  "androidVersion": "1.1.0",
+  "checks": {
+    "skillTests": {
+      "passed": 15,
+      "total": 15
+    },
+    "androidBehaviorChecks": {
+      "passed": 25,
+      "total": 25,
+      "environment": "Android 15 / WebView 124 emulator, not a physical phone; historical reports retained"
+    },
+    "buildArchiveChecks": {
+      "passed": 4,
+      "total": 4
+    },
+    "rebuiltHtmlMatchesDelivery": true,
+    "privateMaterialScan": "passed for curated files; signing keys, toolchains, server configs, original course attachments and personal learning records excluded"
+  },
+  "notes": [
+    "Unsigned or self-built APKs cannot replace the maintained release because the signing private key is not public.",
+    "Native Node anonymous fetch failed on this network; all four public URLs were downloaded successfully with curl without credentials and compared byte for byte."
+  ]
+}
