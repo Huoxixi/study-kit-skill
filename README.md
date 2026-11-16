@@ -4,7 +4,7 @@
 
 这是一份给支持Skill的助手使用的工作流程，附带可选的数据检查器。它不是预先填满内容的题库，也不是自动判断所有知识真伪的程序。
 
-当前 Skill 版本：**1.1.0**。入口：[SKILL.md](SKILL.md)。配套安卓应用：**1.1.0**。
+当前 Skill 版本：**1.2.0**。入口：[SKILL.md](SKILL.md)。配套安卓应用：**1.1.0**。
 
 ## 安卓版与课程项目
 
@@ -100,3 +100,7 @@ python -m unittest discover -s tests -v
 使用中发现可复用的问题，可以继续修订同一份Skill。按[维护约定](references/evolution.md)区分通用方法、可配置偏好与单门课事实，更新版本并运行相关测试。
 
 仓库包含明确标注来源的课程示例与学习参考；不包含原始课程附件、学生资料、真实学习记录、签名私钥、浏览器信息或服务器配置。字体子集沿用 SIL OFL，见 `assets/fonts/OFL.txt`；课程中引用的 PyTorch 示例代码附原 BSD 许可，见 `docs/sources/PyTorch-tutorials-LICENSE.txt`。其他引用与验证边界见 [外部资料采用记录](docs/外部资料采用记录.md)。
+
+## 通用Skill 1.2.0
+
+新增章节教学主线、重要联系回看、位置线路与独立网状图约定；增加按需手机资料库、导入隔离、进度保留及安卓/苹果验收边界。安卓应用仍为1.1.0，未重新编译。精简通用Skill仓库：[study-review-workshop](https://github.com/Huoxixi/study-review-workshop)。
