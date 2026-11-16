@@ -1,0 +1,6 @@
+[
+  {"name":"Android SDK Platform 35 Extension 15 Revision 1","url":"https://dl.google.com/android/repository/platform-35-ext15_r01.zip","file":"platform-35-ext15_r01.zip","directory":"platforms-android-35","algorithm":"SHA1","hash":"ce757091f933b7ac646bf197ce8957cc73b95614","size":64492044},
+  {"name":"Android Build Tools 35.0.0","url":"https://dl.google.com/android/repository/build-tools_r35_windows.zip","file":"build-tools_r35_windows.zip","directory":"build-tools-35-0-0","algorithm":"SHA1","hash":"af059bb67cf7786f45ee0db85e2d24985df1b4b6","size":59878107},
+  {"name":"Android Platform Tools 37.0.1","url":"https://dl.google.com/android/repository/platform-tools_r37.0.1-win.zip","file":"platform-tools_r37.0.1-win.zip","directory":"platform-tools","algorithm":"SHA1","hash":"e03e78b1d80b396f1c3358e31251cb31740e1110","size":8044989},
+  {"name":"Microsoft OpenJDK 17.0.21.0.2 Windows x64","url":"https://aka.ms/download-jdk/microsoft-jdk-17.0.21.0.2-windows-x64.zip","file":"microsoft-jdk.zip","directory":"jdk","algorithm":"SHA256","hash":"49154292866386b2f4f09a3ecf3be07ab80a419149c84ec1d4419b9eec9e4b64","size":187236595}
+]

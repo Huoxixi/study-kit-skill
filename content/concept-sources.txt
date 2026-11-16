@@ -1,0 +1,113 @@
+# 稳定键|采用记录|来源类型|名称与章节|链接|关联卡片（空格分隔）
+oecd|R26|国际组织说明|OECD 2024 · AI 系统定义与解释|https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf#page=6|K001
+algebra|R27|作者教材|《动手学深度学习》2.3 · 向量、矩阵与点积|https://zh.d2l.ai/chapter_preliminaries/linear-algebra.html|K008
+calculus|R27|作者教材|《动手学深度学习》2.4 · 导数、梯度与链式法则|https://zh.d2l.ai/chapter_preliminaries/calculus.html|K009
+probability|R27|作者教材|《动手学深度学习》2.6 · 条件概率、期望与方差|https://zh.d2l.ai/chapter_preliminaries/probability.html|K010 K028
+mlp|R27|作者教材|《动手学深度学习》4.1 · 多层感知机与激活|https://zh.d2l.ai/chapter_multilayer-perceptrons/mlp.html|K021 K045
+overfit|R27|作者教材|《动手学深度学习》4.4 · 训练、验证与泛化|https://zh.d2l.ai/chapter_multilayer-perceptrons/underfit-overfit.html|K034 K048 K049
+dropout|R27|作者教材|《动手学深度学习》4.6 · Dropout|https://zh.d2l.ai/chapter_multilayer-perceptrons/dropout.html|K049
+backprop|R27|作者教材|《动手学深度学习》4.7 · 前向与反向传播|https://zh.d2l.ai/chapter_multilayer-perceptrons/backprop.html|K044
+conv|R27|作者教材|《动手学深度学习》6.1 · 卷积的局部性与参数共享|https://zh.d2l.ai/chapter_convolutional-neural-networks/why-conv.html|K051
+rnn|R27|作者教材|《动手学深度学习》8.4 · 循环神经网络|https://zh.d2l.ai/chapter_recurrent-neural-networks/rnn.html|K052 K071
+lstm|R27|作者教材|《动手学深度学习》9.2 · LSTM|https://zh.d2l.ai/chapter_recurrent-modern/lstm.html|K052
+gru|R27|作者教材|《动手学深度学习》9.1 · GRU|https://zh.d2l.ai/chapter_recurrent-modern/gru.html|K052
+transformer|R27|作者教材|《动手学深度学习》10.7 · Transformer|https://zh.d2l.ai/chapter_attention-mechanisms/transformer.html|K053 K081
+ml|R28|官方技术文档|scikit-learn · 拟合、预测与监督/无监督|https://scikit-learn.org/stable/getting_started.html|K020 K032
+preprocess|R28|官方技术文档|scikit-learn · 数据预处理与标准化|https://scikit-learn.org/stable/modules/preprocessing.html|K033
+leakage|R28|官方技术文档|scikit-learn · 数据泄漏与训练集拟合|https://scikit-learn.org/stable/common_pitfalls.html#data-leakage|K033 K034
+evaluation|R28|官方技术文档|scikit-learn · 分类及回归评价指标|https://scikit-learn.org/stable/modules/model_evaluation.html#precision-recall-f-measure-metrics|K035
+linear|R28|官方技术文档|scikit-learn · 线性回归与逻辑回归|https://scikit-learn.org/stable/modules/linear_model.html|K036
+tree|R28|官方技术文档|scikit-learn · 决策树|https://scikit-learn.org/stable/modules/tree.html|K037
+knn|R28|官方技术文档|scikit-learn · K 近邻分类|https://scikit-learn.org/stable/modules/neighbors.html#nearest-neighbors-classification|K037
+svm|R28|官方技术文档|scikit-learn · 支持向量机|https://scikit-learn.org/stable/modules/svm.html|K037
+cluster|R28|官方技术文档|scikit-learn · K-Means 与层次聚类|https://scikit-learn.org/stable/modules/clustering.html|K038
+ensemble|R28|官方技术文档|scikit-learn · 随机森林与 Boosting|https://scikit-learn.org/stable/modules/ensemble.html|K039
+pca|R28|官方技术文档|scikit-learn · PCA|https://scikit-learn.org/stable/modules/decomposition.html#pca|K040
+lda|R28|官方技术文档|scikit-learn · 线性判别分析与降维|https://scikit-learn.org/stable/modules/lda_qda.html|K040
+bayes|R28|官方技术文档|scikit-learn · 朴素贝叶斯的条件独立假设|https://scikit-learn.org/stable/modules/naive_bayes.html|K041
+wing|R29|作者原文|Wing 2010 · Computational Thinking: What and Why?|https://www.cs.cmu.edu/~./CompThink/resources/TheLinkWing.pdf|K011
+python|R30|官方技术文档|Python 教程 · 控制流、函数与缩进|https://docs.python.org/zh-cn/3/tutorial/controlflow.html|K013
+ostep|R31|作者教材|OSTEP 1.10 · 进程、线程、内存与文件|https://pages.cs.wisc.edu/~remzi/OSTEP/|K015
+rdf|R32|W3C 推荐标准|RDF 1.1 · 三元组与图数据模型|https://www.w3.org/TR/rdf11-concepts/#section-triples|K030
+owl|R32|W3C 推荐标准|OWL 2 Primer · 类、属性、个体与约束|https://www.w3.org/TR/owl2-primer/|K031
+phonetics|R33|作者教材|Jurafsky 与 Martin · 第15章 语音与特征|https://web.stanford.edu/~jurafsky/slp3/15.pdf|K062 K063 K064
+asr|R33|作者教材|Jurafsky 与 Martin · 第16章 自动语音识别|https://web.stanford.edu/~jurafsky/slp3/16.pdf|K065 K066
+tts|R33|作者教材|Jurafsky 与 Martin · 第17章 文本转语音|https://web.stanford.edu/~jurafsky/slp3/17.pdf|K067
+words|R33|作者教材|Jurafsky 与 Martin · 第2章 词与 token|https://web.stanford.edu/~jurafsky/slp3/2.pdf|K068
+tagging|R33|作者教材|Jurafsky 与 Martin · 第18章 词性与实体识别|https://web.stanford.edu/~jurafsky/slp3/18.pdf|K068
+syntax|R33|作者教材|Jurafsky 与 Martin · 第19章 成分句法|https://web.stanford.edu/~jurafsky/slp3/19.pdf|K069
+dependency|R33|作者教材|Jurafsky 与 Martin · 第20章 依存句法|https://web.stanford.edu/~jurafsky/slp3/20.pdf|K069
+ngram|R33|作者教材|Jurafsky 与 Martin · 第3章 n-gram|https://web.stanford.edu/~jurafsky/slp3/3.pdf|K070
+embedding|R33|作者教材|Jurafsky 与 Martin · 第5章 词嵌入|https://web.stanford.edu/~jurafsky/slp3/5.pdf|K070 S05
+pretrain|R33|作者教材|Jurafsky 与 Martin · 第7章 Transformer 与预训练|https://web.stanford.edu/~jurafsky/slp3/7.pdf|K053 K071 K079 K081 K085 S09
+translation|R33|作者教材|Jurafsky 与 Martin · 第13章 机器翻译|https://web.stanford.edu/~jurafsky/slp3/13.pdf|K072
+extraction|R33|作者教材|Jurafsky 与 Martin · 第21章 信息抽取|https://web.stanford.edu/~jurafsky/slp3/21.pdf|K072
+retrieval|R33|作者教材|Jurafsky 与 Martin · 第11章 检索与 RAG|https://web.stanford.edu/~jurafsky/slp3/11.pdf|S08
+filter|R34|官方技术文档|OpenCV 4.12 · 图像平滑与滤波|https://docs.opencv.org/4.12.0/d4/d13/tutorial_py_filtering.html|K054
+edge|R34|官方技术文档|OpenCV 4.10 · Canny 边缘检测|https://docs.opencv.org/4.10.0/da/d22/tutorial_py_canny.html|K055
+stereo|R34|官方技术文档|OpenCV 4.12 · 视差与深度|https://docs.opencv.org/4.12.0/dd/d53/tutorial_py_depthmap.html|K060
+rl|R35|作者机构技术文档|Spinning Up · 状态、策略、回报和价值函数|https://spinningup.openai.com/en/latest/spinningup/rl_intro.html|K042 K043
+qlearning|R35|作者原文|Barto 与 Mahadevan · Q-learning 更新，式8|https://incompleteideas.net/rlai.cs.ualberta.ca/papers/barto03recent.pdf|K043
+ddpm|R36|原始论文|Ho 等 2020 · DDPM，§2–3|https://arxiv.org/abs/2006.11239v2|K073
+gan|R37|原始论文|Goodfellow 等 2014 · GAN|https://arxiv.org/abs/1406.2661v1|K074
+federated|R38|原始论文|McMahan 等 · 联邦学习与本地更新聚合|https://arxiv.org/abs/1602.05629v4|K078
+rag|R39|官方技术文档|Microsoft Learn · RAG 的检索与生成|https://learn.microsoft.com/zh-cn/azure/search/retrieval-augmented-generation-overview|K080
+chunks|R39|官方技术文档|Microsoft Learn · 文档切分|https://learn.microsoft.com/zh-cn/azure/search/vector-search-how-to-chunk-documents|S04
+rrf|R39|官方技术文档|Microsoft Learn · 混合结果与 RRF|https://learn.microsoft.com/en-us/azure/search/hybrid-search-ranking|S07
+securityfilter|R39|官方技术文档|Microsoft Learn · 身份与检索安全过滤|https://learn.microsoft.com/en-us/azure/search/search-security-trimming-for-azure-search|S06 S15
+nist|R40|技术框架|NIST AI RMF 1.0 · §3 可信特征与全生命周期管理|https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf|K118 K119 K121 S16
+ethics|R41|政府发布规范|科技部 ·《新一代人工智能伦理规范》第三条等|https://www.most.gov.cn/kjbgz/202109/t20210926_177063.html|K120 K121
+mcp|R42|协议官方说明|MCP · 连接 AI 应用与工具、数据|https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro|S19
+agents|R42|格式官方说明|AGENTS.md · 项目说明文件的用途|https://agents.md/|S19
+clip|R43|原始论文|Radford 等 2021 · CLIP 图文配对学习|https://arxiv.org/abs/2103.00020v1|K075 K076 S18
+biometric|R44|技术规范|NIST SP 800-63B-4 · §3.2.3 生物特征使用边界|https://pages.nist.gov/800-63-4/sp800-63b.html#biometric_use|K058
+sequential|R45|官方技术文档|PyTorch · nn.Sequential 串联模块|https://docs.pytorch.org/docs/2.15/generated/torch.nn.Sequential.html|K050
+distributed|R46|官方技术文档|TensorFlow · Multi-worker training 与同步|https://www.tensorflow.org/tutorials/distribute/multi_worker_with_keras|K025 K077
+linux|R23|官方技术文档|systemd · journalctl 与归档清理|https://www.freedesktop.org/software/systemd/man/latest/journalctl.html|K016
+pytorch|R07|官方技术文档|PyTorch · 训练循环、梯度与优化器|https://docs.pytorch.org/tutorials/beginner/basics/optimization_tutorial|K022 K024 K044 K046 K047 K082
+rlhf|R12|原始论文|Ouyang 等 2022 · InstructGPT，Figure 2 / §3.1|https://arxiv.org/abs/2203.02155v1|K083 K116
+peft|R21|官方技术文档|Hugging Face PEFT · LoRA 与参数高效适配|https://huggingface.co/docs/peft/main/package_reference/lora|K084 S03
+prefix|R21|官方技术文档|Hugging Face PEFT · Prefix Tuning|https://huggingface.co/docs/peft/main/en/package_reference/prefix_tuning|S03
+metrics|R08|官方技术文档|vLLM · 指标计量口径|https://docs.vllm.ai/en/latest/design/metrics/|K085 S12
+vllm|R08|官方技术文档|vLLM · 模型服务与调度|https://docs.vllm.ai/en/stable/|K085 S10 S14
+pages|R09|官方技术文档|vLLM · PagedAttention|https://docs.vllm.ai/en/stable/design/paged_attention/|S09
+spec|R10|官方技术文档|vLLM · 投机解码与适用负载|https://docs.vllm.ai/en/latest/features/speculative_decoding/index.html|S11
+milvus|R11|官方技术文档|Milvus 2.6 · 距离、内积与余弦|https://milvus.io/docs/v2.6.x/metric.md|S05
+react|R16|原始论文|Yao 等 2022 · ReAct|https://arxiv.org/abs/2210.03629v3|K087 S17
+agent|R47|作者教材|Russell 与 Norvig · AIMA 第2章，智能体与理性|https://aima.cs.berkeley.edu/4th-ed/pdfs/newchap02.pdf|K087 K088
+logic|R48|大学课程原文|Stanford CS257 · Lecture 2，肯定前件推理|https://web.stanford.edu/class/cs257/slides/Lecture_2.pdf|K027
+predicates|R48|大学课程原文|Stanford · First Order Predicate Logic|https://xenon.stanford.edu/~pdoyle/quail/notes/reasoning.html|K026
+middle|R13|原始论文|Lost in the Middle · 长上下文位置实验|https://arxiv.org/abs/2307.03172|S01
+chinchilla|R14|原始论文|Chinchilla · 固定训练算力下的规模配置|https://arxiv.org/abs/2203.15556|S01
+emergent|R15|原始论文|涌现与不连续评价指标研究|https://arxiv.org/abs/2304.15004|S01
+http|R24|官方技术文档|MDN · HTTP 401 认证失败|https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/401|S02
+tgi|R22|官方技术文档|TGI · 服务定位与维护说明|https://huggingface.co/docs/text-generation-inference/index|S14
+sglang|R22|官方技术文档|SGLang · 官方概览|https://docs.sglang.io/|S14
+tensorrt|R22|官方技术文档|TensorRT-LLM · 官方概览|https://nvidia.github.io/TensorRT-LLM/overview.html|S14
+gradio|R20|官方源码|Gradio · ChatInterface(Blocks) 与类文档|https://github.com/gradio-app/gradio/blob/main/gradio/chat_interface.py|S20
+algorithm|R49|机构术语词典|NIST DADS · algorithm|https://xlinux.nist.gov/dads/HTML/algorithm.html|K014
+cache|R50|官方源码|RedisVL · SemanticCache，相似阈值、TTL 与过滤字段|https://github.com/redis/redis-vl-python/blob/main/redisvl/extensions/cache/llm/semantic.py|S13
+dartmouth|R51|历史原始文献|McCarthy 等 · 1955 年提案与 1956 年研究计划|https://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html|K001
+hardware|R27|作者教材|《动手学深度学习》12.4 · CPU、GPU 与存储|https://zh.d2l.ai/chapter_computational-performance/hardware.html|K023
+detection|R27|作者教材|《动手学深度学习》13.3 · 目标检测和边界框|https://zh.d2l.ai/chapter_computer-vision/bounding-box.html|K056 K057
+segmentation|R27|作者教材|《动手学深度学习》13.9 · 像素类别与实例区分|https://zh.d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html|K056
+style|R27|作者教材|《动手学深度学习》13.12 · 内容与风格|https://zh.d2l.ai/chapter_computer-vision/neural-style.html|K061
+adam|R45|官方技术文档|PyTorch · Adam 的一阶与二阶矩更新|https://docs.pytorch.org/docs/2.15/generated/torch.optim.Adam.html|K022
+crossentropy|R45|官方技术文档|PyTorch · CrossEntropyLoss 的 logits 输入|https://docs.pytorch.org/docs/2.15/generated/torch.nn.CrossEntropyLoss.html|K046
+ptuning|R52|原始论文|Liu 等 · P-Tuning v2，深层连续提示|https://arxiv.org/abs/2110.07602v3|S03
+expert|R53|官方工具手册|CLIPS 6.31 User's Guide · 第1章，专家系统|https://www.clipsrules.net/documentation/v631/ug631.pdf|K029
+mathmodel|R54|学会指南|SIAM · Math Modeling: Computing & Communicating，第1章|https://m3challenge.siam.org/wp-content/uploads/siam-technical-guidebook-web-bw.pdf|K012
+recommend|R55|官方技术教程|Google Developers · 内容推荐与协同过滤|https://developers.google.com/machine-learning/recommendation/overview/candidate-generation|K104
+coldstart|R55|官方技术教程|Google Developers · 协同过滤与冷启动|https://developers.google.com/machine-learning/recommendation/collaborative/summary|K105
+label|R56|官方历史技术文档|Microsoft Learn · 分类、检测框、分割掩码与文本标注|https://learn.microsoft.com/en-us/azure/machine-learning/how-to-label-data?view=azureml-api-2|K018
+http400|R24|技术参考文档|MDN · HTTP 400 Bad Request|https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/400|S02
+http429|R24|技术参考文档|MDN · HTTP 429 Too Many Requests|https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/429|S02
+integral|R57|作者教材|OpenStax Calculus 1 · §5.2 定积分与带符号累积|https://openstax.org/books/calculus-volume-1/pages/5-2-the-definite-integral|K009
+qianxue|R58|学校公开资料|上海大学千学百科 · 四级水平测试与平台入口|https://aiforall.shu.edu.cn/sjspcs.htm|K007
+robot|R59|行业机构标准释义|IFR · ISO 8373 的机器人自主性及设备边界|https://ifr.org/service-robots|K110
+autograd|R60|官方技术文档|PyTorch 2.15 · eval 与梯度模式的区别|https://docs.pytorch.org/docs/2.15/notes/autograd.html#locally-disabling-gradient-computation|K034 K044 K082
+accumulate|R60|官方技术文档|PyTorch 2.15 · 多个 batch 的梯度累积|https://docs.pytorch.org/docs/2.15/notes/amp_examples.html#gradient-accumulation|K034 K044 K082
+sift|R62|官方技术文档|OpenCV 4.12 · SIFT 关键点与描述符|https://docs.opencv.org/4.12.0/da/df5/tutorial_py_sift_intro.html|K055
+calibration|R63|原始论文|Guo 等 · 概率校准与正确率，ICML 2017|https://proceedings.mlr.press/v70/guo17a.html|K036
+pythondata|R30|官方技术文档|Python 教程 · §5 列表和字典|https://docs.python.org/zh-cn/3/tutorial/datastructures.html|K013
+pythonerrors|R30|官方技术文档|Python 教程 · §8 try/except 与异常|https://docs.python.org/zh-cn/3/tutorial/errors.html|K013

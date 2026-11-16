@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Cover installation retains legacy document metadata",
+    "Stable origins preserve every original bookmark, answer and draft on upgrade",
+    "Existing workshop course still renders all 141 cards and 212 questions"
+  ],
+  "screenshot": "docs/qa/multi-01-upgraded-existing-course.png",
+  "passed": true
+}

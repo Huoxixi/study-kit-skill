@@ -1,0 +1,80 @@
+{
+  "environment": "Android 15 / WebView 124 / WHPX emulator; not a physical phone",
+  "checks": [
+    {
+      "stage": 1,
+      "name": "Create an empty course and select it as the import destination",
+      "passed": true
+    },
+    {
+      "stage": 2,
+      "name": "System picker imports several HTML/HTM documents at once; identical titles remain separate",
+      "passed": true
+    },
+    {
+      "stage": 3,
+      "name": "Mixed batch keeps valid imports, skips an exact duplicate and reports the invalid file",
+      "passed": true
+    },
+    {
+      "stage": 3,
+      "name": "GBK HTML, UTF-16 HTML and body-only fragments render Chinese text and run their own interactions",
+      "passed": true
+    },
+    {
+      "stage": 4,
+      "name": "Different HTML layouts sharing the same localStorage key remain isolated across force-stop and relaunch",
+      "passed": true
+    },
+    {
+      "stage": 4,
+      "name": "Search filters actual file names and provides a recoverable no-results state",
+      "passed": true
+    },
+    {
+      "stage": 5,
+      "name": "Rename, pin and explicitly update an HTML while preserving its custom name and progress",
+      "passed": true
+    },
+    {
+      "stage": 5,
+      "name": "Move documents between courses, rename a course and sort while respecting pinned items",
+      "passed": true
+    },
+    {
+      "stage": 6,
+      "name": "Complete backup restores course classification, file name, custom label, pin and the original learning state",
+      "passed": true
+    },
+    {
+      "stage": 6,
+      "name": "Portable backups can add a Chinese-named course with separate progress",
+      "passed": true
+    },
+    {
+      "stage": 7,
+      "name": "Removing a course classification keeps all HTML and learning records",
+      "passed": true
+    },
+    {
+      "stage": 7,
+      "name": "Deleting one HTML does not delete other courses or their progress",
+      "passed": true
+    },
+    {
+      "stage": 7,
+      "name": "Course library, search and fixed import action remain usable with dark mode and enlarged text",
+      "passed": true
+    }
+  ],
+  "screenshots": [
+    "docs/qa/multi-02-empty-course.png",
+    "docs/qa/multi-03-batch-library.png",
+    "docs/qa/multi-04-course-filters.png",
+    "docs/qa/multi-05-managed-courses.png",
+    "docs/qa/multi-06-dark-large-text.png",
+    "docs/qa/multi-07-final-library.png"
+  ],
+  "stage": 7,
+  "passed": true
+}

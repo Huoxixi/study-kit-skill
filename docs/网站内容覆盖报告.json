@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "cards": 141,
+    "syllabus": 121,
+    "supplements": 20,
+    "questions": 212,
+    "officialObjective": 40,
+    "officialSubjective": 18,
+    "officialParents": 8,
+    "custom": 154
+  },
+  "domains": {
+    "人工智能概述": 7,
+    "数学基础与计算思维": 9,
+    "生成式人工智能三要素基础": 9,
+    "知识图谱与计算机": 6,
+    "机器学习": 12,
+    "深度学习": 10,
+    "计算机视觉": 8,
+    "语音处理": 6,
+    "自然语言处理": 5,
+    "人工智能前沿技术与生成式大模型": 16,
+    "人工智能赋能千行百业": 27,
+    "从业能力": 2,
+    "人工智能安全与伦理": 4
+  },
+  "types": {
+    "single": 26,
+    "multi": 12,
+    "boolean": 156,
+    "short": 18
+  },
+  "disputed": [
+    "OC07",
+    "OM05",
+    "OM08",
+    "OM09",
+    "OM10",
+    "OT08",
+    "OT12"
+  ],
+  "subjectivePoints": 100
+}

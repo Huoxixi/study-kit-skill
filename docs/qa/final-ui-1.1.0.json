@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Final APK installation retains all five test documents",
+    "Course and sort selectors remain usable in normal and enlarged dark layouts",
+    "Final APK still opens the independent Chinese course with its existing progress"
+  ],
+  "screenshots": [
+    "docs/qa/multi-09-final-normal-controls.png",
+    "docs/qa/multi-10-final-dark-controls.png",
+    "docs/qa/multi-11-final-release-library.png"
+  ],
+  "sha256": "241dde629849192248d93790795152599f8825b04f341819cb5073e374db4e9a",
+  "bytes": 565868,
+  "passed": true
+}

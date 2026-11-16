@@ -10,3 +10,24 @@ tmp/
 *.key
 .DS_Store
 Thumbs.db
+
+# Local app, deployment and private material
+android-app/.toolchain/
+android-app/build/
+android-app/signing/
+android-app/qa/
+android-app/history/
+android-app/dist/
+*.apk
+*.idsig
+*.p12
+*.jks
+*.keystore
+password.txt
+41/
+41A1/
+41A2/
+deploy/
+publish/
+交付/
+.impeccable/

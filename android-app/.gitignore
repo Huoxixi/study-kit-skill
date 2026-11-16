@@ -1,0 +1,8 @@
+.toolchain/
+build/
+signing/
+assets/sample.html
+qa/
+dist/
+history/
+*.idsig

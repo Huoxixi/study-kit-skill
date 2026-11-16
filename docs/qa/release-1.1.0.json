@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Version 1.1.0 release is installed, non-debuggable and has no Internet permission",
+    "Release installation retains every imported HTML",
+    "Release renders the generic course and preserves the learning record",
+    "Restoring a backup selects its restored course so the document stays visible",
+    "Choosing a backup in Update HTML is rejected without replacing current progress",
+    "Same-named documents in different courses retain independent records in the release"
+  ],
+  "environment": "Android 15 emulator; no physical phone",
+  "documentCount": 5,
+  "screenshot": "docs/qa/multi-08-release-library.png",
+  "passed": true,
+  "limitations": [
+    "Only Android 15 emulator tested. The userdebug OS forces WebView debugging despite the release API setting; see R83."
+  ]
+}

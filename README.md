@@ -4,7 +4,30 @@
 
 这是一份给支持Skill的助手使用的工作流程，附带可选的数据检查器。它不是预先填满内容的题库，也不是自动判断所有知识真伪的程序。
 
-当前版本：**1.1.0**。入口：[SKILL.md](SKILL.md)。
+当前 Skill 版本：**1.1.0**。入口：[SKILL.md](SKILL.md)。配套安卓应用：**1.1.0**。
+
+## 安卓版与课程项目
+
+[下载安卓安装包](https://github.com/Huoxixi/study-kit-skill/releases/download/android-v1.1.0/StudyKit-Reader-1.1.0.apk) · [版本说明与附件](https://github.com/Huoxixi/study-kit-skill/releases/tag/android-v1.1.0) · [安卓源码与构建](android-app/README.md)
+
+安卓版可导入多份独立 HTML / HTM，按课程分类、搜索、排序、置顶和更新。每份资料单独保存学习记录，支持完整备份；无需服务器、账号或联网权限。将 APK 传到 Android 8.0 及以上手机后安装；已有 1.0.0 请覆盖安装，保留资料与进度。卡片和做题交互由导入网页自身提供。
+
+仓库同时保存可离线打开的人工智能四级课程示例 [index.html](index.html)，含 141 张卡片、212 道题，以及 `web/`、`content/`、`assets/` 和 `tools/build_site.py`。本示例是学习参考，不是官方答案或评分细则；原始 PDF 与素材不随仓库分发。
+
+[课程使用说明](使用说明.md) · [多课程版验收](docs/安卓APP多课程升级验收.md) · [更新记录](CHANGELOG.md)
+
+安卓 1.1.0 已在 Android 15 模拟器完成 25 项行为检查，尚未做物理手机验证。单份 HTML 上限 20 MiB；不自动导入相邻资源目录，不提供云同步，卸载前请导出备份。
+
+### 从源码构建
+
+Windows x64、PowerShell 7：
+
+```powershell
+./android-app/tools/bootstrap.ps1
+./android-app/tools/build-local.ps1
+```
+
+工具脚本使用固定版本和校验值，首次需联网下载官方 Java / Android 工具。签名私钥留在维护者本地；自行构建会生成自己的签名，不能覆盖官方发布包。独立网页可直接打开，无需构建；修改课程后可用 Python 3 运行 `python tools/build_site.py`。
 
 ## 能做什么
 
@@ -51,7 +74,10 @@ references/evolution.md          更新方式与版本记录
 scripts/check_study_data.py      结构、关联和覆盖检查器
 examples/minimal-course.json     人工构造的格式示例
 tests/test_study_data.py         可复现检查
-docs/外部资料采用记录.md          本Skill采用的结构规范
+android-app/                    安卓阅读器源码、构建与测试辅助脚本
+index.html                      可离线导入的课程示例
+web/、content/、assets/          示例的页面、数据和字体许可
+docs/外部资料采用记录.md          Skill、示例与安卓应用的采用依据
 ```
 
 ## 可选的数据检查
@@ -73,4 +99,4 @@ python -m unittest discover -s tests -v
 
 使用中发现可复用的问题，可以继续修订同一份Skill。按[维护约定](references/evolution.md)区分通用方法、可配置偏好与单门课事实，更新版本并运行相关测试。
 
-仓库不包含原课程题库、学生资料、真实学习记录、浏览器信息或服务器配置。
+仓库包含明确标注来源的课程示例与学习参考；不包含原始课程附件、学生资料、真实学习记录、签名私钥、浏览器信息或服务器配置。字体子集沿用 SIL OFL，见 `assets/fonts/OFL.txt`；课程中引用的 PyTorch 示例代码附原 BSD 许可，见 `docs/sources/PyTorch-tutorials-LICENSE.txt`。其他引用与验证边界见 [外部资料采用记录](docs/外部资料采用记录.md)。
